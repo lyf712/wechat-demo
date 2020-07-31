@@ -69,3 +69,4 @@
 [https://mp.weixin.qq.com/debug/wxadoc/dev/framework/config.html#tabBar](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/config.html#tabBar) 
 
 OK，结束，保存 编译  就可以实现小程序的经典的底部导航效果了
+# wxdemo
