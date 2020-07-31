@@ -1,0 +1,94 @@
+
+@import "../../lib/weui.wxss";
+page {
+  background-color: rgb(4, 65, 4);
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+}/* 区别page于container */
+.container{
+margin: 10px;
+padding: 0px;
+}
+ .page-body{
+  /* background-color: darkmagenta; */
+} 
+.page-section-spacing{
+  box-sizing: border-box;
+ 
+  padding: 0 40rpx;
+}
+.swiper-item{
+  display: block;
+  height: 160px;
+}
+.page-section-title{
+  margin-top: 10rpx;
+  position: relative;
+}
+.info{
+  position: absolute;
+  right: 0;
+  color: #353535;
+  font-size: 30rpx;
+}
+
+.demo-text-1{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #1AAD19;
+  color: #FFFFFF;
+  font-size: 36rpx;
+}
+.demo-text-1:before{
+  content: '云飞';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.demo-text-2{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #2782D7;
+  color: #FFFFFF;
+  font-size: 36rpx;
+}
+.demo-text-2:before{
+  content: '爱';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.demo-text-3{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #F1F1F1;
+  color: #353535;
+  font-size: 36rpx;
+}
+.demo-text-3:before{
+  content: '可心';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.page-section-title{
+  padding: 0;
+}
+
+.flex-wrp {display: flex;}
+.bc_green {
+  margin-top: 30px;
+  background: rgb(2, 83, 2);
+  width:300px; 
+  height: 260px; 
+  border-radius: 5px;}
+
+

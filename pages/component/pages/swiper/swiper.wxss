@@ -1,0 +1,6 @@
+.demo-text-1{
+width: 100%;
+height: 50px;
+color: aqua;
+background-color: blue;
+}

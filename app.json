@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/introduce/introduce",
+    "pages/analysis/analysis"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "健康管理",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#790381",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/tabar/exam.png",
+        "iconPath": "images/tabar/exam0.png",
+        "pagePath": "pages/index/index",
+        "text": "测评中心"
+      },
+      {
+        "selectedIconPath": "images/tabar/manager1.png",
+        "iconPath": "images/tabar/manager.png",
+        "pagePath": "pages/analysis/analysis",
+        "text": "健康分析"
+      },
+      {
+        "selectedIconPath": "images/tabar/health.png",
+        "iconPath": "images/tabar/health0.png",
+        "pagePath": "pages/introduce/introduce",
+        "text": "智能推荐"
+      },
+      {
+        "selectedIconPath": "images/tabar/my1.png",
+        "iconPath": "images/tabar/my.png",
+        "pagePath": "pages/user/user",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,44 @@
+<view class="container">
+  <view class="page-body" style="padding-top:10px">
+    <view class="page-section page-section-spacing swiper">
+      <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item {{item}}"></view>
+          </swiper-item>
+        </block>
+      </swiper>
+   <view style="width:100%"></view>
+   <text selectable="width:100%">------------------------------------------------</text>
+    </view>
+  </view>
+  <view>
+  </view>
+
+  <view class="flex-wrp" style="height: 300px;flex-direction:column;">
+    <view class="flex-item bc_green">
+     
+      <view class="weui-cell weui-cell_input" style="padding-top:20px">
+        温度 <input class="weui-input" auto-focus placeholder="请输入体温(C)" style="border:1px; padding-left:10px"/>
+      </view>
+
+    <view class="weui-cell weui-cell_input" style="padding-top:20px">
+        饮水<input class="weui-input" auto-focus placeholder="请输入饮水量(mm）" style="border:1px; padding-left:10px"/>
+      </view>
+    
+  <view class="weui-cell weui-cell_input" style="padding-top:20px;">
+         心率<input class="weui-input" auto-focus placeholder="请输入心率(次/min)" style="border:1px;  padding-left:10px"/>
+      </view>
+
+ <view class="weui-cell weui-cell_input" style="padding-top:20px">
+      </view>
+ <button type="primary" plain="true" style="width:100px;height:45px; text-line:100%; margin-top:0px;">提交</button>
+    </view>
+
+
+  </view>
+
+
+</view>

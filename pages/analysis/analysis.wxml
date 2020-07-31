@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container" style="padding-top:10px">
+<ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>
+
+<text>-------------------------------</text>
+<text>健康建议</text>
+<view class="flex-wrp" style="height: 300px;flex-direction:column;">
+    <view class="flex-item bc_green">
+     <view style="padding-left:20px;padding-top:20px; color:white;">   您的健康报告如下：</view>
+      </view>
+
+
+
+  </view>
+
+
+</view>
